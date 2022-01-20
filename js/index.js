@@ -1,3 +1,7 @@
+import createMenu from "./createMenu.js";
+
+createMenu();
+
 const hamburger = document.querySelector(".menu__hamburger");
 const menuLinks = document.querySelector(".menu__links");
 
