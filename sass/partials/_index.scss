@@ -1,0 +1,30 @@
+.index-photo {
+  background-image: url("../images/index-photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+  top: -70px;
+  @media screen and (min-width: $breakpoint-desktop) {
+    height: 1500px;
+  }
+}
+
+.index-section__1 {
+  position: relative;
+
+  &--text {
+    position: relative;
+    top: 135px;
+    background-color: $maincolor-light;
+    padding: 25px 17px;
+    line-height: 1.6;
+    @media screen and (min-width: $breakpoint-desktop) {
+      top: 240px;
+      width: 465px;
+      height: 230px;
+      padding: 25px 20px;
+    }
+  }
+}

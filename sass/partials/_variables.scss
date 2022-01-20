@@ -1,6 +1,13 @@
 // Fonts
-
 $font-primary: "Playfair Display", serif;
 $font-secondary: "Roboto Condensed", sans-serif;
 
 // Colors
+$maincolor-light: #f4ebfd;
+$maincolor-medium: #e2cff8;
+$accent: #8d2bff;
+
+// Screen breakpoints
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1200px;

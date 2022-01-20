@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: $font-secondary;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.container {
+  flex: 1 0 auto;
+  width: 80%;
+  margin: 0 auto;
+  @media screen and (min-width: $breakpoint-desktop) {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.content-width {
+  width: 80%;
+  margin: 0 auto;
+
+  @media screen and (min-width: $breakpoint-desktop) {
+    width: 1200px;
+  }
+}

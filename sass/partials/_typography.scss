@@ -1,3 +1,20 @@
 h1 {
+  font-size: 26px;
   font-family: $font-primary;
+  margin: 0;
+  @media screen and (min-width: $breakpoint-desktop) {
+    font-size: 46px;
+  }
+}
+h2 {
+  font-family: $font-primary;
+}
+
+a {
+  font-family: $font-primary;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: $accent;
 }
