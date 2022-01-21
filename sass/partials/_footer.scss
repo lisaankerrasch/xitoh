@@ -1,0 +1,25 @@
+footer {
+  position: relative;
+  top: -100px;
+  background-color: white;
+  padding: 20px 0;
+}
+
+.footer {
+  &__flex {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    @media screen and (min-width: $breakpoint-desktop) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+    }
+    &--icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

@@ -8,6 +8,8 @@ h1 {
 }
 h2 {
   font-family: $font-primary;
+  font-size: 24px;
+  margin: 0;
 }
 
 a {
@@ -17,4 +19,8 @@ a {
 }
 a:hover {
   color: $accent;
+}
+p {
+  font-family: $font-secondary;
+  font-size: 14px;
 }

@@ -1,30 +1,117 @@
-.index-photo {
-  background-image: url("../images/index-photo.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 450px;
-  position: relative;
-  top: -70px;
-  @media screen and (min-width: $breakpoint-desktop) {
-    height: 1500px;
-  }
-}
-
-.index-section__1 {
-  position: relative;
-
-  &--text {
+.index-section {
+  &__1 {
     position: relative;
-    top: 135px;
+
+    &--photo {
+      z-index: -1;
+      background-image: url("../images/index-photo.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 450px;
+      position: relative;
+      top: -70px;
+      @media screen and (min-width: $breakpoint-desktop) {
+        height: 1500px;
+      }
+    }
+    &--text {
+      width: 80%;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+      background-color: $maincolor-light;
+      padding: 25px 17px;
+      line-height: 1.6;
+      @media screen and (min-width: $breakpoint-desktop) {
+        margin: 0;
+        top: 150px;
+        right: auto;
+        left: auto;
+        width: 465px;
+        height: 230px;
+        padding: 25px 20px;
+      }
+    }
+    &--fullwidth {
+      margin: auto;
+      position: relative;
+      top: -100px;
+      @media screen and (min-width: $breakpoint-desktop) {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 150px;
+        flex-direction: row;
+        height: 500px;
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+    }
+    &--featured {
+      display: flex;
+      flex-direction: column;
+      @media screen and (min-width: $breakpoint-desktop) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+    &--featuredproject {
+      margin: 0 auto 60px;
+      width: 100%;
+      @media screen and (min-width: $breakpoint-desktop) {
+        margin: 0;
+        width: 250px;
+      }
+      h2 {
+        margin-top: 25px;
+      }
+      &--image {
+        width: 100%;
+        @media screen and (min-width: $breakpoint-desktop) {
+          margin-top: 60px;
+          width: 250px;
+          height: 250px;
+        }
+      }
+    }
+  }
+  &__2 {
+    &--photo {
+      position: relative;
+      top: -100px;
+      z-index: 2;
+      background-image: url("../images/peony.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 240px;
+      @media screen and (min-width: $breakpoint-desktop) {
+        height: 510px;
+      }
+    }
+  }
+  &__3 {
+    position: relative;
+    top: -100px;
     background-color: $maincolor-light;
-    padding: 25px 17px;
-    line-height: 1.6;
-    @media screen and (min-width: $breakpoint-desktop) {
-      top: 240px;
-      width: 465px;
-      height: 230px;
-      padding: 25px 20px;
+    &--flex {
+      display: flex;
+      flex-direction: column;
+      padding: 35px 0;
+      @media screen and (min-width: $breakpoint-desktop) {
+        flex-direction: row;
+        gap: 80px;
+        padding: 170px 0;
+      }
+      &--item1 img {
+        width: 100%;
+        @media screen and (min-width: $breakpoint-desktop) {
+          width: auto;
+        }
+      }
     }
   }
 }

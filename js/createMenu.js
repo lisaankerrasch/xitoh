@@ -7,7 +7,7 @@ export default function createMenu() {
   <a href="index.html"><img src="icons/xitoh-logo.svg" /></a>
 </div>
 <div class="menu__hamburger">
-  <img src="icons/menu-icon.svg" />
+  <img src="icons/menu-icon.svg" alt="x itoh logo" />
 </div>
 <ul class="menu__links expandMenu full-width">
 <li class="menu__link"><a href="projects.html" class=${
