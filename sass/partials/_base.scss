@@ -46,8 +46,10 @@ body {
   max-width: 100%;
   position: relative;
   top: -100px;
+  margin-bottom: -50px;
   object-fit: cover;
   @media screen and (min-width: $breakpoint-desktop) {
+    margin-bottom: 0;
     height: 327px;
   }
 }
