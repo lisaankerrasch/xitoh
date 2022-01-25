@@ -393,7 +393,6 @@ footer {
     justify-content: space-between;
     position: relative;
     gap: 150px;
-    margin-bottom: 100px;
   }
 }
 
@@ -409,6 +408,10 @@ footer {
 
 .projects__flex--item--paragraph {
   margin-bottom: 20px;
+}
+
+.projects__flex--item--ul {
+  padding: 0 0 20px;
 }
 
 .projects__flex--item--image img {
