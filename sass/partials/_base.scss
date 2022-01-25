@@ -4,6 +4,7 @@ body {
 }
 
 body {
+  background-color: $maincolor-light;
   font-family: $font-secondary;
   display: flex;
   flex-direction: column;
@@ -37,4 +38,16 @@ body {
   color: $accent;
   font-size: 18px;
   text-decoration: underline;
+  margin-top: 30px;
+}
+
+.header img {
+  height: 245px;
+  max-width: 100%;
+  position: relative;
+  top: -100px;
+  object-fit: cover;
+  @media screen and (min-width: $breakpoint-desktop) {
+    height: 327px;
+  }
 }

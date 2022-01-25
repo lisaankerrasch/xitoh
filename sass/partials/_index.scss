@@ -81,7 +81,6 @@
   &__2 {
     &--photo {
       position: relative;
-      top: -100px;
       z-index: 2;
       background-image: url("../images/peony.jpg");
       background-position: center;
@@ -89,22 +88,23 @@
       background-size: cover;
       height: 240px;
       @media screen and (min-width: $breakpoint-desktop) {
+        top: -200px;
         height: 510px;
       }
     }
   }
   &__3 {
     position: relative;
-    top: -100px;
     background-color: $maincolor-light;
     &--flex {
       display: flex;
       flex-direction: column;
-      padding: 35px 0;
+      padding: 100px 0;
       @media screen and (min-width: $breakpoint-desktop) {
         flex-direction: row;
         gap: 80px;
-        padding: 170px 0;
+        top: -100px;
+        padding: 0 0 200px;
       }
       &--item1 img {
         width: 100%;

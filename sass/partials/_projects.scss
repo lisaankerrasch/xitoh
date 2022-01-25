@@ -1,0 +1,183 @@
+.projects__flex {
+  display: flex;
+  flex-direction: column;
+  &--item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    @media screen and (min-width: $breakpoint-desktop) {
+      flex-direction: row;
+      justify-content: space-between;
+      position: relative;
+      gap: 150px;
+      margin-bottom: 100px;
+    }
+    &--header {
+      margin-bottom: 30px;
+      @media screen and (min-width: $breakpoint-desktop) {
+        margin-bottom: 50px;
+      }
+    }
+
+    &--paragraph {
+      margin-bottom: 50px;
+    }
+    &--image img {
+      width: 100%;
+      @media screen and (min-width: $breakpoint-desktop) {
+        width: 300px;
+      }
+    }
+    &--column1 {
+      margin-bottom: 50px;
+    }
+    &--colorsimg {
+      @media screen and (min-width: $breakpoint-desktop) {
+        overflow: hidden;
+        width: 1200px;
+        height: 535px;
+      }
+    }
+    &--colorsimg img {
+      width: 100%;
+      @media screen and (min-width: $breakpoint-desktop) {
+        height: 1200px;
+        width: 535px;
+        -webkit-transform: translateX(-100%) rotate(-90deg);
+        -moz-transform: translateX(-100%) rotate(-90deg);
+        -ms-transform: translateX(-100%) rotate(-90deg);
+        -o-transform: translateX(-100%) rotate(-90deg);
+        transform: translateX(-100%) rotate(-90deg);
+        -webkit-transform-origin: top right;
+        -moz-transform-origin: top right;
+        -ms-transform-origin: top right;
+        -o-transform-origin: top right;
+        transform-origin: top right;
+      }
+    }
+    &.colorsamples,
+    &--icons {
+      flex-direction: row;
+      gap: 10px;
+      flex-wrap: wrap;
+      @media screen and (min-width: $breakpoint-desktop) {
+      }
+    }
+    &--color-sample {
+      width: 138px;
+      height: 150px;
+      &.F7F3EE {
+        background-color: #f7f3ee;
+      }
+      &.EADCCE {
+        background-color: #eadcce;
+      }
+      &.B7856D {
+        background-color: #b7856d;
+      }
+      &.EEC3B4 {
+        background-color: #eec3b4;
+      }
+      &.E6E4E2 {
+        background-color: #e6e4e2;
+      }
+      &.black {
+        background-color: #1f1a10;
+      }
+      &.F8F8F8 {
+        background-color: #f8f8f8;
+      }
+      &.FFF3ED {
+        background-color: #fff3ed;
+      }
+      &.E5E5E5 {
+        background-color: #e5e5e5;
+      }
+      &.E8E1D9 {
+        background-color: #e8e1d9;
+      }
+      &.green-86a479 {
+        background-color: #86a479;
+      }
+      &.black-1F2115 {
+        background-color: #1f2115;
+      }
+      &.FFF3EB {
+        background-color: #fff3eb;
+      }
+      &.F1DDCF {
+        background-color: #f1ddcf;
+      }
+      &.FFBEB5 {
+        background-color: #ffbeb5;
+      }
+      &.FF8676 {
+        background-color: #ff8676;
+      }
+      &.FDFBDD {
+        background-color: #fdfbdd;
+      }
+      &.FFF476 {
+        background-color: #fff476;
+      }
+      &.B4D0AC {
+        background-color: #b4d0ac;
+      }
+      &.E5F5E1 {
+        background-color: #e5f5e1;
+      }
+      &.D8BFB1 {
+        background-color: #d8bfb1;
+      }
+      &.green-5CAB8B {
+        background-color: #5cab8b;
+      }
+      &.green-6BD1C4 {
+        background-color: #6bd1c4;
+      }
+      &.black-000000 {
+        background-color: #000000;
+      }
+      &.EC665E {
+        background-color: #ec665e;
+      }
+      &.F5C85F {
+        background-color: #f5c85f;
+      }
+      &.purple-7C38B2 {
+        background-color: #7c38b2;
+      }
+      &.blue-3D718C {
+        background-color: #3d718c;
+      }
+      &.F2F7F0 {
+        background-color: #f2f7f0;
+      }
+      &.green-18352B {
+        background-color: #18352b;
+      }
+      &.green-9FA87B {
+        background-color: #9fa87b;
+      }
+      &.green-5D635D {
+        background-color: #5d635d;
+      }
+      &.CE301B {
+        background-color: #ce301b;
+      }
+    }
+    &--icons {
+      max-width: 500px;
+    }
+    &--icons img {
+      width: 50px;
+    }
+    &--buttons {
+      max-width: 500px;
+    }
+    &--buttons img {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+  }
+}
