@@ -1,6 +1,10 @@
 .index-section {
   &__1 {
     position: relative;
+    margin-bottom: 50px;
+    @media screen and (min-width: $breakpoint-desktop) {
+      margin-bottom: -50px;
+    }
 
     &--photo {
       z-index: -1;
@@ -13,6 +17,7 @@
       top: -70px;
       @media screen and (min-width: $breakpoint-desktop) {
         height: 1500px;
+        margin-bottom: -70px;
       }
     }
     &--text {
@@ -38,7 +43,7 @@
     &--fullwidth {
       margin: auto;
       position: relative;
-      top: -100px;
+      // top: -100px;
       @media screen and (min-width: $breakpoint-desktop) {
         position: absolute;
         left: 0;
@@ -89,6 +94,7 @@
       height: 240px;
       @media screen and (min-width: $breakpoint-desktop) {
         top: -200px;
+        margin-bottom: -200px;
         height: 510px;
       }
     }
@@ -103,8 +109,7 @@
       @media screen and (min-width: $breakpoint-desktop) {
         flex-direction: row;
         gap: 80px;
-        top: -100px;
-        padding: 0 0 200px;
+        padding: 150px 0;
       }
       &--item1 img {
         width: 100%;

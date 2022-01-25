@@ -92,7 +92,7 @@ a:hover {
 
 p {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 nav {
@@ -194,6 +194,13 @@ nav {
 
 .index-section__1 {
   position: relative;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1200px) {
+  .index-section__1 {
+    margin-bottom: -50px;
+  }
 }
 
 .index-section__1--photo {
@@ -210,6 +217,7 @@ nav {
 @media screen and (min-width: 1200px) {
   .index-section__1--photo {
     height: 1500px;
+    margin-bottom: -70px;
   }
 }
 
@@ -240,7 +248,6 @@ nav {
 .index-section__1--fullwidth {
   margin: auto;
   position: relative;
-  top: -100px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -309,6 +316,7 @@ nav {
 @media screen and (min-width: 1200px) {
   .index-section__2--photo {
     top: -200px;
+    margin-bottom: -200px;
     height: 510px;
   }
 }
@@ -328,8 +336,7 @@ nav {
   .index-section__3--flex {
     flex-direction: row;
     gap: 80px;
-    top: -100px;
-    padding: 0 0 200px;
+    padding: 150px 0;
   }
 }
 
@@ -401,7 +408,7 @@ footer {
 }
 
 .projects__flex--item--paragraph {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .projects__flex--item--image img {
