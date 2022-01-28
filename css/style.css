@@ -620,7 +620,7 @@ footer {
   .about-section--flex {
     flex-direction: row;
     gap: 80px;
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 
