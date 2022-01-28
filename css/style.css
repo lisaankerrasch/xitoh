@@ -48,6 +48,7 @@ body {
 
 .header img {
   height: 245px;
+  width: 100%;
   max-width: 100%;
   position: relative;
   top: -100px;
@@ -177,7 +178,7 @@ nav {
 
 @media screen and (min-width: 1200px) {
   .menu__links.full-width {
-    width: 400px;
+    width: 300px;
     transform: none;
   }
 }
@@ -607,4 +608,29 @@ footer {
 .projects__flex--item--buttons img {
   width: 200px;
   margin-bottom: 20px;
+}
+
+.about-section--flex {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .about-section--flex {
+    flex-direction: row;
+    gap: 80px;
+    padding: 150px 0;
+  }
+}
+
+.about-section--flex--item1 img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .about-section--flex--item1 img {
+    width: auto;
+  }
 }

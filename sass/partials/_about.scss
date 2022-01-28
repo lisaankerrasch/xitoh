@@ -1,0 +1,19 @@
+.about-section {
+  &--flex {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    @media screen and (min-width: $breakpoint-desktop) {
+      flex-direction: row;
+      gap: 80px;
+      padding: 150px 0;
+    }
+    &--item1 img {
+      width: 100%;
+      margin-bottom: 30px;
+      @media screen and (min-width: $breakpoint-desktop) {
+        width: auto;
+      }
+    }
+  }
+}

@@ -20,10 +20,12 @@ export default function createMenu() {
   }>
     About
   </a></li>
-  <li class="menu__link"><a href="contact.html" class=${
-    pathname === "/contact.html" ? "active" : ""
-  }>
-    Contact
-  </a></li>
+
 </ul>`;
 }
+
+//  <li class="menu__link"><a href="contact.html" class=${
+//   pathname === "/contact.html" ? "active" : ""
+// }>
+//   Contact
+// </a></li>

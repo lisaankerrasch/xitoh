@@ -57,7 +57,7 @@ nav {
       left: 50%;
       transform: translateX(-50%);
       @media screen and (min-width: $breakpoint-desktop) {
-        width: 400px;
+        width: 300px;
         transform: none;
       }
     }
